@@ -1,6 +1,10 @@
 {
   "name": "my-pangle-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WDDong/react-native-pangle-sdk.git"
+  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
