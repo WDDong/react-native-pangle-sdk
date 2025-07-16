@@ -1,0 +1,33 @@
+{
+  "name": "my-pangle-sdk",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "lib",
+    "ios"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react-native": "^0.71.0"
+  },
+  "keywords": [
+    "react-native",
+    "pangle",
+    "穿山甲",
+    "ads",
+    "sdk"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react-native": "^0.80.1"
+  }
+}

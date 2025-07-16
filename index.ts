@@ -1,0 +1,1 @@
+export { default as Pangle } from './js/Pangle';
